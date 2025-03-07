@@ -25,7 +25,4 @@ app.use("/", indexRouter);
 app.use("/weather", weatherRouter);
 app.use("/users", userRouter);
 
-const checkBody = require("./modules/checkBody");
-console.log(checkBody);
-
 module.exports = app;
